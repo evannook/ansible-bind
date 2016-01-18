@@ -1,0 +1,15 @@
+galaxy_info:
+  author: Evan Nook
+  description: Install bind packages
+  company: InnoNook
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+  - name: Debian
+    versions:
+    - jessie
+  galaxy_tags:
+    - bind
+    - debian
+    - dns
+dependencies: []
