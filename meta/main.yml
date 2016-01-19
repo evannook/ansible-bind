@@ -12,4 +12,5 @@ galaxy_info:
     - bind
     - debian
     - dns
-dependencies: []
+dependencies:
+  - evannook.sysbase
