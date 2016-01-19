@@ -3,6 +3,11 @@ bind
 
 Install bind packages
 
+Dependencies
+------------
+
+- evannook.sysbase
+
 Example Playbook
 ----------------
 
