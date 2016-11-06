@@ -1,3 +1,6 @@
 ---
-- name: install bind packages
-  apt: "pkg=bind9 state=latest"
+- block:
+  - name: install bind packages
+    apt: "pkg=bind9 state=latest"
+  tags:
+    - bind
