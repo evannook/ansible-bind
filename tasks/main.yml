@@ -1,8 +1,9 @@
 ---
 - block:
   - name: install bind packages
-    apt: "pkg={{ item }} state=latest"
-    with_items:
+    apt: "pkg={{ packages }} state=latest"
+    vars:
+      packages:
       - bind9
       - dnsutils
   tags:
