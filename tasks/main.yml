@@ -1,7 +1,7 @@
 ---
 - block:
   - name: install bind packages
-    apt: "pkg={{ packages }} state=latest"
+    ansible.builtin.apt: "pkg={{ packages }} state=latest"
     vars:
       packages:
       - bind9
